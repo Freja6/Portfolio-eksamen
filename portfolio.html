@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <link rel="icon" href="imgs/favicon-blomst.svg" type="image/svg+xml">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-blomst.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header>
+        <nav class="nav">
+            <a class="logo" href="index.html">
+                <img src="imgs/favicon-blomst.svg" alt="Logo">
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html">Forside</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="ommig.html">Om mig</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PORTFOLIO INTRO SVG -->
+    <section class="portfolio-hero">
+        <img class="portfolio-svg slide-in" src="imgs/portfolio-forside.svg"
+            alt="Illustration til portfolio introduktion">
+
+        <img class="portfolio-svg slide-in" src="imgs/portfolio-indhold.svg"
+            alt="Illustration til portfolio introduktion">
+    </section>
+
+    <div class="hero-divider"></div>
+
+    <section class="portfolio-docs">
+        <h2>Proces & dokumentation</h2>
+
+        <p class="portfolio-docs-intro">
+            Her kan du se den digitale prototype, proces og kode, der ligger bag mit portfolio-site.
+        </p>
+
+        <div class="portfolio-docs-links">
+            <a href="https://www.figma.com/proto/eLFFM2AGrdVHvUPUn3FFxD/Styletile--Hifi-wireframe-og-digital-prototype?node-id=0-1&t=Ar20N0GVQbayoma3-1"
+                target="_blank" rel="noopener">
+                Figma · Digital prototype
+            </a>
+
+            <a href="https://www.figma.com/board/d1NexOpvRqIkCVlUUj9IK4/Portfolie-Eksamen---Freja-Lund-Olsen?node-id=0-1&t=FCfKfFANyio0juBY-1"
+                target="_blank" rel="noopener">
+                FigJam · Proces & metode
+            </a>
+
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- PORTFOLIO -->
+    <main class="portfolio">
+
+        <!-- TEMA 2 -->
+        <section class="portfolio-item theme-web slide-in" style="transition-delay:0.1s">
+            <div class="portfolio-card">
+
+                <h2 class="portfolio-title">Grundlæggende Web</h2>
+
+                <div class="portfolio-grid">
+
+                    <div class="portfolio-image">
+                        <img src="imgs/tema2.jpeg" alt="Screenshot af Tema 2 projekt">
+                    </div>
+
+                    <div class="portfolio-text">
+                        <p>
+                            I Tema 2 arbejdede jeg med at opbygge mit første website ved hjælp af HTML og CSS.
+                            Jeg arbejdede mobile-first og tog udgangspunkt i wireframes og layoutdiagrammer.
+                        </p>
+
+                        <p>
+                            Jeg lærte at strukturere indhold semantisk og bruge typografi, margin og padding
+                            til at skabe hierarki og læsbarhed.
+                        </p>
+
+                        <div class="portfolio-links">
+                            <button class="modal-btn" data-title="Tema 2 · Repository"
+                                data-content="https://freja6.github.io/website_done/">
+                                Repository
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 2 · Løsning"
+                                data-content="Responsivt website bygget med HTML og CSS med fokus på semantik og mobile-first.">
+                                Løsning
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 2 · Proces"
+                                data-content="Analyse → wireframes → HTML-struktur → CSS layout → test og justering.">
+                                Proces
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TEMA 3 -->
+        <section class="portfolio-item theme-ux slide-in" style="transition-delay:0.2s">
+            <div class="portfolio-card">
+
+                <h2 class="portfolio-title">UX / UI</h2>
+
+                <div class="portfolio-grid">
+
+                    <div class="portfolio-image">
+                        <img src="imgs/tema3.jpeg" alt="Screenshot af Tema 3 projekt">
+                    </div>
+
+                    <div class="portfolio-text">
+                        <p>
+                            I Tema 3 arbejdede jeg med brugeroplevelse og designproces fra idé til prototype.
+                            Jeg lavede research, målgruppeanalyse og skitser.
+                        </p>
+
+                        <p>
+                            Temaet gav mig forståelse for, hvordan brugerindsigt omsættes til konkrete designvalg.
+                        </p>
+
+                        <div class="portfolio-links">
+                            <button class="modal-btn" data-title="Tema 3 · Repository"
+                                data-content="https://www.figma.com/board/VLazxMHGteONT3u1H8yYyu/%C3%98velser?node-id=0-1&t=ubEVgbJ5VdRG5usK-1">
+                                Repository
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 3 · Løsning"
+                                data-content="Brugercentreret design med fokus på navigation og klar struktur.">
+                                Løsning
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 3 · Proces"
+                                data-content="Research → skitser → Figma-prototype → test → justering.">
+                                Proces
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TEMA 4 -->
+        <section class="portfolio-item theme-animation slide-in" style="transition-delay:0.3s">
+            <div class="portfolio-card">
+
+                <h2 class="portfolio-title">Grundlæggende Animation</h2>
+
+                <div class="portfolio-grid">
+
+                    <div class="portfolio-image">
+                        <img src="imgs/tema4.jpeg" alt="Screenshot af Tema 4 projekt">
+                    </div>
+
+                    <div class="portfolio-text">
+                        <p>
+                            I Tema 4 arbejdede jeg med animation og interaktion ved hjælp af CSS og JavaScript.
+                        </p>
+
+                        <p>
+                            Fokus var på timing, easing og meningsfuld feedback.
+                        </p>
+
+                        <div class="portfolio-links">
+                            <button class="modal-btn" data-title="Tema 4 · Repository"
+                                data-content="https://github.com/Freja6/ek-04_emergency-website-.git">
+                                Repository
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 4 · Løsning"
+                                data-content="Interaktive animationer der understøtter brugeroplevelsen.">
+                                Løsning
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 4 · Proces"
+                                data-content="Eksperimenter → test → justering af animationer.">
+                                Proces
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TEMA 5 -->
+        <section class="portfolio-item theme-content slide-in" style="transition-delay:0.4s">
+            <div class="portfolio-card">
+
+                <h2 class="portfolio-title">Grundlæggende Indhold</h2>
+
+                <div class="portfolio-grid">
+
+                    <div class="portfolio-image">
+                        <img src="imgs/tema5.jpeg" alt="Screenshot af Tema 5 projekt">
+                    </div>
+
+                    <div class="portfolio-text">
+                        <p>
+                            I Tema 5 arbejdede jeg med indholdsproduktion og formidling.
+                        </p>
+
+                        <p>
+                            Fokus var på sammenhæng mellem tekst, billeder og målgruppe.
+                        </p>
+
+                        <div class="portfolio-links">
+                            <button class="modal-btn" data-title="Tema 5 · Repository"
+                                data-content="https://github.com/sebastian2698/Aneschollort.git">
+                                Repository
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 5 · Løsning"
+                                data-content="Indhold struktureret med fokus på klar kommunikation.">
+                                Løsning
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 5 · Proces"
+                                data-content="Planlægning → produktion → feedback → justering.">
+                                Proces
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TEMA 6 -->
+        <section class="portfolio-item theme-exam slide-in" style="transition-delay:0.5s">
+            <div class="portfolio-card">
+
+                <h2 class="portfolio-title">Portfolio Eksamen</h2>
+
+                <div class="portfolio-grid">
+
+                    <div class="portfolio-image">
+                        <img src="imgs/tema6.jpeg" alt="Screenshot af portfolio eksamen">
+                    </div>
+
+                    <div class="portfolio-text">
+                        <p>
+                            Portfolio-eksamen samler mit arbejde fra hele semesteret i ét sammenhængende website.
+                        </p>
+
+                        <p>
+                            Fokus har været på struktur, design, kode og refleksion.
+                        </p>
+
+                        <div class="portfolio-links">
+
+
+                            <button class="modal-btn" data-title="Tema 6 · Løsning"
+                                data-content="Samlet portfolio der demonstrerer læring og kompetencer.">
+                                Løsning
+                            </button>
+
+                            <button class="modal-btn" data-title="Tema 6 · Proces"
+                                data-content="Figma/FigJam → kodning → test → refleksion.">
+                                Proces
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal">
+                <button class="modal-close" id="closeModal">×</button>
+
+                <h3 id="modalTitle"></h3>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>
+            Portfolio eksamen · 1. semester<br>
+            Freja Lund Olsen · Multimediedesign
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
